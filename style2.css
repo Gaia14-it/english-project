@@ -1,0 +1,40 @@
+.hero {
+    background-color: #ff66c4;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.hero > img {
+    width: 20%;
+    height: auto;
+}
+* {
+    background-color: #e884c2;
+}
+h1 {
+    color: #000000;
+}
+.notes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.notes img {
+    height: 400px;
+    width: auto;
+}
+.info {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: larger;
+    font-weight: bolder;
+}
+.info img {
+    height: 100px;
+    width: auto;
+}
+.data {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1em;
+}
