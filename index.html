@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MySecretBlog</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <div class="img"><img src="Screenshot 2024-11-22 8.13.23 AM.png" alt="logo"></div>
-    <div class="password">
+    <form class="password" action="index2.html">
         <div>
             <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required/>
+            <input type="text" id="username" name="username" placeholder="Enter your Username" required/>
         </div>
         <div>
             <label for="pass">Password (8 characters minimum):</label>
-            <input type="password" id="pass" name="password" minlength="8" required />
+            <input type="password" id="pass" name="password" minlength="8" placeholder="Enter your Password" required />
         </div>
-        <a href="index2.html"><button class="favorite styled" type="submit" value="Sign in">Sign In</button></a>
-    </div> 
+        <button class="favorite styled" type="submit" value="Sign in">Sign In</button>
+    </forms> 
 </body>
 </html>
